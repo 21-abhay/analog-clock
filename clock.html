@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/clock.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>WALL CLOCK</h1>
+    </div>
+
+    <div id="clock">
+        <div class="container" id="outer-frame">
+            <div  id="inner-frame">
+                <div class="clock-type" id="analog">
+                    <div class="hands" id="hour-hand">
+                        <div class="colored-part"></div>
+                        <div class="remaining-part"></div>
+                    </div>
+                    <div class="hands" id="minute-hand">
+                        <div class="colored-part"></div>
+                        <div class="remaining-part"></div>
+                    </div>
+                    <div class="hands" id="second-hand">
+                        <div class="colored-part"></div>
+                        <div class="remaining-part"></div>
+                    </div>
+                </div>
+                
+                <div class="clock-type" id="digital">
+                    <div class="clock" id="hours">
+                        00
+                    </div>
+                    <div class="clock" id="divider1">
+                        :
+                    </div>
+                    <div class="clock" id="minutes">
+                        00
+                    </div>
+                    <div class="clock" id="divider2">
+                        :
+                    </div>
+                    <div class="clock" id="seconds">
+                        00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/clock.js"></script>
+
+</html>
